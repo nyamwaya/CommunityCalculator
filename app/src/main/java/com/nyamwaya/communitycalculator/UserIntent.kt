@@ -1,6 +1,9 @@
 package com.nyamwaya.communitycalculator
 
+import com.nyamwaya.communitycalculator.arch.IIntent
+
 sealed class UserIntent: IIntent {
-    object Add : UserIntent()
-    object GenerateResults : UserIntent()
+    data class NumberPressed(val calculationRequest: CalculationRequest) : UserIntent()
+    
+    // object NumberPressed : UserIntent()
 }

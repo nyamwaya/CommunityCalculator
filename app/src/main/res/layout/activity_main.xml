@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/grey_to_black_gradient"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <TextView
         android:id="@+id/five"

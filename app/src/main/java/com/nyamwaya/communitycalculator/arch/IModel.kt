@@ -1,4 +1,4 @@
-package com.nyamwaya.communitycalculator
+package com.nyamwaya.communitycalculator.arch
 
 import androidx.lifecycle.LiveData
 import kotlinx.coroutines.channels.Channel
